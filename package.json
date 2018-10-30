@@ -1,0 +1,20 @@
+{
+  "name": "webpack-app",
+  "version": "1.0.0",
+  "description": "webpack project",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack index.js --output bundle.js --mode development",
+	"build:local": "webpack",
+	"build:external": "webpack --config ./external/webpack.config.js"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Jugo",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
