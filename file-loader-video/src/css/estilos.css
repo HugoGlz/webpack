@@ -1,0 +1,26 @@
+body {
+	background: black;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+	font-size: 40px;
+	background-image: url('./images/platzi.png');
+	font-family:'20_dbregular';
+	flex-direction: column;
+}
+
+@font-face {
+    font-family: '20_dbregular';
+    src: url('./fonts/20db-webfont.eot');
+    src: url('./fonts/20db-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/20db-webfont.woff') format('woff'),
+         url('./fonts/20db-webfont.ttf') format('truetype'),
+         url('./fonts/20db-webfont.svg#20_dbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
